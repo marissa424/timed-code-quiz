@@ -1,0 +1,140 @@
+/* Body Styles */
+
+body {
+  font-family: Verdana;
+  background-color: #ffffff;
+  margin: 0px;
+}
+
+/* Header Styles  */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  padding: 3vh;
+}
+
+/* highscore color */ 
+.high-score {
+  color:#8b57df;
+}
+/* specify min-width for time element*/
+
+time {
+  min-width: 85px;
+}
+
+/* Main Styles */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button Styles */
+
+.button {
+  display: block;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #461891;
+  border-radius: 6px;
+  border: none;
+}
+
+.inline-buttons {
+  display: inline-flex;
+}
+
+/* Card Styles */
+
+.card {
+  max-width: 80%;
+  margin-top: 100px;
+  border-width: 2px;
+  padding: 5vw;
+}
+
+/* Start Card Style */
+
+.start-screen {
+  text-align: center;
+}
+
+.start-screen p {
+  margin-bottom: 35px;
+
+}
+
+.start-screen h2 {
+  font-size: 40px;
+}
+
+.start-card-button {
+  margin: auto;
+  font-size: 20px;
+  padding: 14px 40px;
+}
+
+/* Question Card Styles */
+.questions h2 {
+  font-size: 40px;
+}
+
+.option-button {
+  width: 50%;
+  font-size: 20px;
+  text-align: left;
+  margin: 5px;
+  padding: 14px 40px;
+}
+
+#result-div {
+  display: none;
+}
+
+/* Score Card Styles */
+
+.inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#initials {
+  width: 25%;
+  margin: 8px;
+  padding: 1vh;
+}
+
+/* Leaderboard Card Styles */
+
+#back-button {
+  margin-right: 8px;
+}
+
+.highscore-list {
+  padding-inline-start: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 850px) {
+  .card {
+    max-width: 680px;
+  }
+}
+
+/* Media query that specifies devices that can utilize hover */
+@media (hover) {
+  /* Stylings pertaining to hover pseudo-class*/
+  a:hover {
+    color: #c095e8;
+  }
+
+  button:hover {
+    background-color: #c095e8;
+  }
+}
