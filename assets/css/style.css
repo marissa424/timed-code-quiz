@@ -15,9 +15,10 @@ header {
   padding: 3vh;
 }
 
-/* highscore color */ 
+/* highscore color */
 .high-score {
-  color:#8b57df;
+  color: #8b57df;
+  cursor: pointer;
 }
 
 time {
@@ -41,6 +42,7 @@ main {
   background-color: #461891;
   border-radius: 6px;
   border: none;
+  cursor: pointer;
 }
 
 .inline-buttons {
@@ -152,7 +154,7 @@ main {
 
 /* Media query that specifies devices that can utilize hover */
 @media (hover) {
-  /* Stylings pertaining to hover pseudo-class*/
+
   a:hover {
     color: #c095e8;
   }
