@@ -19,7 +19,6 @@ header {
 .high-score {
   color:#8b57df;
 }
-/* specify min-width for time element*/
 
 time {
   min-width: 85px;
@@ -100,8 +99,9 @@ main {
 .inline-form {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: left;
 }
+
 
 #initials {
   width: 25%;
@@ -109,14 +109,37 @@ main {
   padding: 1vh;
 }
 
+.final-score {
+  font-size: 25px;
+}
+
 /* Leaderboard Card Styles */
 
 #back-button {
-  margin-right: 8px;
+  margin-right: 20px;
+  font-size: 15px;
+  padding: 10px 25px;
 }
 
-.highscore-list {
+#clear-button {
+  margin: auto;
+  font-size: 15px;
+  padding: 10px 25px;
+}
+
+.highscores-card h2 {
+  font-size: 35px;
+  margin-bottom: -4px;
+}
+
+#highscore-list {
   padding-inline-start: 20px;
+  background-color: #d8c0ee;
+  padding: 20px 300px;
+}
+
+.high-score-list ol {
+  text-align: left;
 }
 
 /* Media Queries */

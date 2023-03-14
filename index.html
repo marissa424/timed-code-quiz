@@ -46,21 +46,21 @@
         </section>
 
         <section>
-            <div id="score-card" class="card" hidden>
+            <div id="score-card" class="card final-score" hidden>
                 <h2>All done!</h2>
                 <p>Your final score is <span id="score"></span>.</p>
                 <form class="inline-form" id="submission-form">
                     <label for="initials">Enter initials: </label>
-                    <input type="text" id="initials">
+                    <input type="text" id="initials" class="initial-input">
                     <button id="submit-button" class="button">Submit</button>
                 </form>
             </div>
         </section>
 
         <section>
-            <div id="leaderboard-card" class="card" hidden >
-                <h2>Highscores</h2>
-                <ol id="highscore-list">
+            <div id="leaderboard-card" class="card highscores-card" hidden >
+                <h2>High Scores</h2>
+                <ol id="highscore-list" class="high-score-list">
                 </ol>
                 <div class="inline-buttons">
                     <button id="back-button" class="button">Go Back</button>
