@@ -28,11 +28,12 @@ git clone git@github.com:marissa424/timed-code-quiz.git
 ```
 
 ## Deployed Application
-https://marissa424.github.io/Professional-Portfolio
+https://marissa424.github.io/timed-code-quiz/
 
 ## Credits
 
-Coursework from Coding Boot Camp module 1 referenced for guidance.
+Coursework from Coding Boot Camp module 4 referenced for guidance.
+<br> Help from https://www.w3schools.com/
 
 
 ## License
